@@ -1,5 +1,12 @@
 /* 
 
+*
+*
+*
+*
+*
+
+
 import java.util.Scanner;
 
 public class NrowStarPattern0 {
