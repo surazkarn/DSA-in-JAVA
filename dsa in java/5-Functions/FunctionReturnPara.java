@@ -1,4 +1,4 @@
-public class FunctionWithPara {
+public class FunctionReturnPara {
 
     public static void main(String[] args) {
         System.out.println("normal call");
@@ -11,6 +11,16 @@ public class FunctionWithPara {
         additionParam(10, 20);
         additionParam(20, 30);
 
+        System.out.println("funtion return value");
+        int sum = additionReturn(30, 40); // sum is local variable of main
+        System.out.println(sum);
+
+    }
+
+    public static int additionReturn(int a, int b) {
+        // sum is local variable of additionReturn function
+        int add = a + b; // int sum = a + b;
+        return add; // return sum;
     }
 
     public static void additionParam(int a, int b) {
