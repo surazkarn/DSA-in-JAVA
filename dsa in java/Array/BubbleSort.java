@@ -40,6 +40,8 @@ public class BubbleSort {
 
     }
 
+    // comparing adjacent two elements(j and j+1) and
+    // moving the largest element to the end using swaping
     public static void bubbleSort(int[] arr) {
 
         for (int counter = 0; counter < arr.length - 1; counter++) {

@@ -38,9 +38,17 @@ public class SelectionSort {
 
     }
 
+    // after the counter gets completed for any index
+    // then we will be having the correct element at counter position
+
     public static void selectionSort(int[] arr) {
 
+        // once the counter =0; gets completed
+        // the correct element will be at 0 th index
+
         for (int counter = 0; counter < arr.length - 1; counter++) {
+
+            // assume present counter is the only one which is containig the minimum value
 
             int min = counter;
 
