@@ -1,0 +1,3 @@
+My Function works before writing my Function Definition.
+
+When a Function calls itself again and again.
