@@ -1,4 +1,14 @@
-public class PrintInc {
+// DOING WORK WHEN FUNCTION IS POPED FROM THE STACK
+/*
+ * 1
+ * 2
+ * 3
+ * 4
+ * 5
+ * 
+ */
+
+public class StackisFall {
 
     public static void main(String[] args) {
         PI(5);
@@ -15,5 +25,3 @@ public class PrintInc {
 
     }
 }
-
-// DOING WORK WHEN FUNCTION IS POPED FROM THE STACK

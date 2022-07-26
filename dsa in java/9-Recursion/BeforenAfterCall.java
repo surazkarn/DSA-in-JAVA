@@ -1,5 +1,4 @@
-class PrintNrecur {
-
+public class BeforenAfterCall {
     public static void main(String[] args) {
         PD(5);
     }
@@ -12,8 +11,7 @@ class PrintNrecur {
         System.out.println(n);
         // hault
         PD(n - 1);
+        System.out.println(n);
 
     }
 }
-
-// DOING WORK WHILE STACK IS BUILDING
