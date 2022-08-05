@@ -10,10 +10,9 @@ public class MergeSort {
     // keep resultant in an array name merged[]
 
     public static void main(String[] args) {
-        int[] arr1 = { 10, 20, 30, 40, 50 };
-        int[] arr2 = { 5, 15, 30, 45, 60, 70, 80 };
+        int[] arr = { 20, 10, 30, 50, 60, 5, 80, 25 };
 
-        int[] ans = mergeTwoSortedArrays(arr1, arr2);
+        int[] ans = mergeSort(arr, 0, arr.length - 1);
 
         for (int val : ans) {
             System.out.print(val + " ");
@@ -73,8 +72,15 @@ public class MergeSort {
 
     }
 
-    public static int[] mergeSort(int[] arr, int[] lo, int hi) {
+    public static int[] mergeSort(int[] arr, int lo, int hi) {
 
+        if (lo == hi) {
+            int[] br = new int[1];
+            br[0] = arr[lo];
+
+            return br;
+
+        }
         int mid = (lo + hi) / 2;
         int[] fh = mergeSort(arr, lo, mid);
         int[] sh = mergeSort(arr, mid + 1, hi);
