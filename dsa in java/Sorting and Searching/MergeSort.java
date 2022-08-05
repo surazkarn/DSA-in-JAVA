@@ -61,7 +61,7 @@ public class MergeSort {
         if (j == arr2.length) {
             while (i < arr1.length) {
 
-                merged[k] = arr1[j];
+                merged[k] = arr1[i];
                 i++;
                 k++;
 
