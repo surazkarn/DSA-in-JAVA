@@ -1,4 +1,9 @@
-public class MergetwoSortedArray {
+//first code merge two sorted array
+// big prblm : i want to sort an array of size n
+// small prblm : my recursion is capable enough to sort an array of size n/2
+
+public class MergeSort {
+
     // arr1 : [10,20,30,40,50]
     // arr2 : [5,15,30,45,60,70,80]
 
@@ -66,6 +71,16 @@ public class MergetwoSortedArray {
 
         return merged;
 
+    }
+
+    public static int[] mergeSort(int[] arr, int[] lo, int hi) {
+
+        int mid = (lo + hi) / 2;
+        int[] fh = mergeSort(arr, lo, mid);
+        int[] sh = mergeSort(arr, mid + 1, hi);
+        int[] merge = mergeTwoSortedArrays(fh, sh);
+
+        return merge;
     }
 
 }
