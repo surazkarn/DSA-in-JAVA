@@ -1,3 +1,6 @@
+//inplace sorting : changes occur in original array : bs,ss,is
+//not inplace :merge
+
 //first code merge two sorted array
 // big prblm : i want to sort an array of size n
 // small prblm : my recursion is capable enough to sort an array of size n/2
