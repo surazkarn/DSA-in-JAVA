@@ -16,6 +16,7 @@ public class First {
         private node tail;
         private int size;
 
+        
     }
 
 }
