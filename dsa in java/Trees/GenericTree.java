@@ -8,20 +8,32 @@
 package Trees;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class GenericTree {
 
-    private class node {
+    private class Node {
 
         int data;
         ArrayList<Node> children;
         // arraylist of type node
         // refrence as children
 
-        Node(int data){
-            this.data=data;
-            this.children=new ArrayList<>();
+        Node(int data) {
+            this.data = data;
+            this.children = new ArrayList<>();
         }
 
+        private Node root;
+        private int size;
+
+        GenericTree(){
+
+        }
+
+        // to take input of the generic tree
+        private Node takeInput(Scanner s, Node parent, int ithchild) {
+
+        }
     }
 }
