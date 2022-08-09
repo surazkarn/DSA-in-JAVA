@@ -1,3 +1,5 @@
+import java.security.Key;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Graph {
@@ -23,7 +25,7 @@ public class Graph {
 
         graph.display();
 
-        System.out.println(GrnumVetex());
+        System.out.println(graph.numVetex());
     }
 
     private class Vertex {
@@ -37,8 +39,31 @@ public class Graph {
     }
 
     public void addVertex(String vname) {
-        Vertex vtx = new Vertex();
-        vtces.put(vname, vtx);
+        Vertex vtx = new Vertex();//
+        vtces.put(vname, vtx);// VNAME K CORRESponding vtx
+    }
+
+    public int numEdges() {
+
+        int count = 0;
+        ArrayList<String> keys = new ArrayList<>(vtces.keySet());
+        for (String key : keys) {
+
+            Vertex vtx = vtces.get(key);
+
+            count = count + vtx.nbrs.size();
+
+        }
+
+        return count / 2;
+
+    }
+
+    public boolean containsEdge(String vname1, String vname2) {
+
+        Vertex vtx1 = vtces.get(vname1);
+        Vertex vtx2 = vtces.get(vname2);
+
     }
 
     public void addEdge(String vname1, String vname2, int cost) {

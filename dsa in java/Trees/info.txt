@@ -1,0 +1,17 @@
+//herarchical ds
+
+
+generic trees : node in a generic tree can have any number of childrens
+
+BT : atmost two child
+
+BST
+
+each tree will have root node(TOPMOST OR first node)
+ 
+levels
+
+height : farthest node  distance from root node 
+
+size of the tree : total no. of nodes present inside the tree
+
