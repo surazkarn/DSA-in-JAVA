@@ -1,9 +1,5 @@
-//generic trees : node in a generic tree can have any number of childrens
-//GT consist of a node 
-//node consist of type of data 
-//and arraylist of node : bcz current node will contain further node inside it but the number of nodes is not defined so we will take arraylist 
-
-//refrence as children
+//generic trees : 
+//node can have any number of childrens
 
 package Trees;
 
@@ -12,14 +8,21 @@ import java.util.Scanner;
 
 public class GenericTree {
 
+    // GT consist of a node
     private class Node {
 
+        // node consist of integer type of data
         int data;
-        ArrayList<Node> children;
-        // arraylist of type node
-        // refrence as children
 
+        ArrayList<Node> children;
+        // arraylist of type node : bcz current node will contain further node
+        // with it
+        // but the number of nodes is not defined so we will take arraylist
+        // and refrence as children
+
+        // Node constructor
         Node(int data) {
+            // initialize data and children
             this.data = data;
             this.children = new ArrayList<>();
         }
@@ -28,6 +31,11 @@ public class GenericTree {
         private int size;
 
         GenericTree(){
+
+            Scanner s=new Scanner(System.in);
+            this.root=takeInput(s,null, 0);
+
+            
 
         }
 
