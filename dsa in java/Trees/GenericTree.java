@@ -1,5 +1,5 @@
 //generic trees : 
-//node can have any number of childrens
+//node of the tree can have any number of childrens
 
 package Trees;
 
