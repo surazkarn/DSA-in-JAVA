@@ -1,0 +1,18 @@
+ARRAY cannot grow dynamically but LINKED LIST can
+
+
+ARRAY
+1. Arrays are stored in contiguous location.
+2. Fixed in size.
+3. Memory is allocated at compile time.
+4. Uses less memory than linked lists.
+5. Elements can be accessed easily.
+6. Insertion and deletion operation takes time.
+
+LINKED LISTS
+1. Linked lists are not stored in contiguous location.
+2. Dynamic in size.
+3. Memory is allocated at run time.
+4. Uses more memory because it stores both data and the address of next node.
+5. Element accessing requires the traversal of whole linked list.
+6. Insertion and deletion operation is faster.

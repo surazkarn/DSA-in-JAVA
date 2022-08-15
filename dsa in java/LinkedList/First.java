@@ -15,8 +15,8 @@ public class First {
         // we should know the starting
         // head is refrence to the first node
         // head, tail and size is the property of linked list
-        private node head;
-        private node tail;
+        private Node head;
+        private Node tail;
         private int size;
         // why private?
 
