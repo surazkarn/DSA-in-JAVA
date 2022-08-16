@@ -1,0 +1,24 @@
+Normal Queue : The way you insert the same way values will be deleted
+
+
+Priority Queue : you insert the values in random order , value will be removed as per there Priority
+
+
+HEAP 
+---->Priority of parent is always more than children
+---->Complete Binary tree 
+
+Complete Binary tree : BT in which every level, except the last level is completely filled, and the last level is filled from left to right
+
+n levels
+n-1 levels should be completely filled and nth level should be filled from left-> right
+
+
+Two cases of pririty-:
+a)Smaller Value is having higher priority (eg: ranks) ----> SV Parent node ,lv value child node----Min Heap
+b)Larger Value is having higher priority(eg: marks)   ----> LV Parent node ,smaller value child node----Max Heap
+
+Min Heap 
+Max Heap
+
+
