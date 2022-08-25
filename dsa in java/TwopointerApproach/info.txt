@@ -1,0 +1,4 @@
+//hashing is BEST Solution for unsorted array  //T=O(1) S=O(n)
+//two pointer is more efficient for sorted array //T=O(1) S=O(n)
+
+
