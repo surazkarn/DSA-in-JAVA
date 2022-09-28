@@ -1,7 +1,7 @@
 public class fibRec {
 
     public static void main(String[] args) {
-        System.out.println(FibRecur(10));
+        System.out.println(FibRecur(50));
     }
 
     public static int FibRecur(int n) {
