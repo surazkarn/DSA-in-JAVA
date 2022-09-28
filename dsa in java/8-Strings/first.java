@@ -6,6 +6,8 @@ public class first {
 
         str = "bye";
         System.out.println(str);
+        System.out.println(0);
+        System.out.println(-0);
     }
 
 }
